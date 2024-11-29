@@ -15,12 +15,12 @@ Example with the text file from the test folder: in a Linux terminal do:
 
 ```
 # with textwidth parameter
-cat sample.txt | justifyText 72
+cat sample.txt | justifyText-exe 72
 
 # without params width=68
-cat sample.txt | justifyText
+cat sample.txt | justifyText-exe
 
 # to right aligne instead of justify just add a second parameter of any value
 # with textwidth parameter
-cat sample.txt | justifyText 48 blabla
+cat sample.txt | justifyText-exe 48 blabla
 ```
